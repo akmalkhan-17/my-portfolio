@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Akmal | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .navbar {
+      margin-top: 10px;
+    }
+
+    .navbar a button {
+      margin: 5px;
+      padding: 10px 15px;
+      border: none;
+      background-color: #3498db;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .navbar a button:hover {
+      background-color: #2980b9;
+    }
+
+    .active {
+      background-color: #1abc9c;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .info {
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    section {
+      margin-top: 30px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #ecf0f1;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px 10px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Akmal's Portfolio</h1>
+    <nav class="navbar">
+      <a href="index.html"><button class="active">About Me</button></a>
+      <a href="skills.html"><button>Skills</button></a>
+      <a href="contact.html"><button>Contact</button></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="info">
+      <img src="img/me.png" alt="Akmal's Photo" class="profile-pic">
+      <h2>Akmal</h2>
+      <p>B.Tech Student | Mathematics and Computing</p>
+    </section>
+
+    <section class="about">
+      <h2>About Me</h2>
+      <p>I’m a B.Tech student in Mathematics and Computing at MITS Gwalior. I’m passionate about solving real-world problems using technology and data.</p>
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Institution</th>
+            <th>Qualification</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>MITS Gwalior</td>
+            <td>B.Tech in Mathematics and Computing</td>
+            <td>Present</td>
+          </tr>
+          <tr>
+            <td>Sanskar Public School</td>
+            <td>Higher Secondary (Class 12)</td>
+            <td>2023</td>
+          </tr>
+          <tr>
+            <td>Gwalior Glory High School</td>
+            <td>Secondary (Class 10)</td>
+            <td>2021</td>
+          </tr>
+          <tr>
+            <td>Radiant High School</td>
+            <td>Elementary</td>
+            <td>—</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="grades">
+      <h2>Grades</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Qualification</th>
+            <th>Institution</th>
+            <th>Percentage/CGPA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>B.Tech (Ongoing)</td>
+            <td>MITS Gwalior</td>
+            <td>8.55 SGPA</td>
+          </tr>
+          <tr>
+            <td>Higher Secondary (Class 12)</td>
+            <td>Sanskar Public School</td>
+            <td>83.8%</td>
+          </tr>
+          <tr>
+            <td>Secondary (Class 10)</td>
+            <td>Gwalior Glory High School</td>
+            <td>74.8%</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="interests">
+      <h2>Interests</h2>
+      <ul>
+        <li>Mathematics & Algorithms</li>
+        <li>Web Development</li>
+        <li>Problem Solving</li>
+        <li>Open Source Projects</li>
+      </ul>
+    </section>
+
+    <section class="goals">
+      <h2>Goals</h2>
+      <ol>
+        <li>Excel in my B.Tech degree</li>
+        <li>Develop strong skills in data science and backend development</li>
+        <li>Contribute to impactful open-source projects</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Akmal | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
